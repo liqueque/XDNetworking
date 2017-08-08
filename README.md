@@ -199,7 +199,7 @@ POST请求
 # Extension For Future
 每个请求的API对象化，业务人员能够更加方便地对每个请求进行配置，配置相应的请求参数、缓存策略以及其他配置参数，方便管理业务层的API...   
 
-#Source Core Analysis
-XDNetworking源码分析：[网络层缓存的思考（成长中的XDNetworking）](http://www.jianshu.com/p/174d9687f6d6)
+#不足
+XDNetworking是集约型的网络框架，发起网络请求集中在一个类上，同一管理，适合中小型项目。如果需要对网络请求进行更加细致的配置和管理，这个网络框架可能不适合，需要一个离散型的网络框架做支撑。
 
 # XDNetworking
